@@ -13,6 +13,7 @@ export const GET_ME = gql`
         title
         image
         link
+        # _id
         }
     }
 }`
