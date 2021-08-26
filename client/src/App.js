@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 
 //apollo
 import { ApolloProvider } from '@apollo/react-hooks';
-import { ApolloClient } from 'apollo-boost';
+import ApolloClient from 'apollo-boost';
 
 const client = new ApolloClient({
   request: (operation) => {
